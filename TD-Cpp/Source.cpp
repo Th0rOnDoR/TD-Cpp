@@ -2,8 +2,6 @@
 #include <math.h>
 
 
-
-
 double fact(double x) {
 	if (x <= 0) {
 		return 1;
@@ -11,7 +9,7 @@ double fact(double x) {
 	return (x * fact(x - 1));
 }
 
-double fun(double x, int k, double val[]) {
+double fun(double x, int k, double *val) {
 	if (k <= 0) {
 		std::cout << round(x) << "\n";
 		return round(x);
@@ -32,9 +30,11 @@ double fun(double x, int k, double val[]) {
 
 
 int main() {
-	double val[9000];
-	for (int i = 0; i < 9000; i++) {
+	int size = 1000;
+	double* val = new double[size] { };
+	for (int i = 0; i < 1000; i++) {
 		val[i] = -1;
 	}
 	std::cout << fun(3.0/8.0, 5,val);
+	return 1;
 }
