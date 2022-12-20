@@ -7,18 +7,18 @@
 using std::string;
 
 
+namespace TD
+{
+	int main() {
+		//Vous pouvez appeller vos fonctions ici
+		std::cout << TD_Boucles::Addition(5, 6) << std::endl; //exemple
+		//Pour les boucles (partie 1) c'est: TD_Boucles::
+		//Pour les strings (partie 2) c'est: TD_Strings::
+		//Pour les impérative (partie 3) c'est: TD_Imperative::
 
-
-int main() {
-	//Vous pouvez appeller vos fonctions ici
-	std::cout << TD_Boucles::Addition(5, 6) << std::endl; //exemple
-	//Pour les boucles (partie 1) c'est: TD_Boucles::
-	//Pour les strings (partie 2) c'est: TD_Strings::
-	//Pour les impérative (partie 3) c'est: TD_Imperative::
-
-	return 0;
+		return 0;
+	}
 }
-
 
 /*
 int size = 1000;
