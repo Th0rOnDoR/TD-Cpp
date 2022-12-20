@@ -3,6 +3,7 @@
 #include <string>
 #include "Boucles.cpp"
 #include "Strings.cpp"
+#include "Imperative.cpp"
 using std::string;
 
 
