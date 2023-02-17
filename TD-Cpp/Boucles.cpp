@@ -1,9 +1,9 @@
 #include <iostream>
 #include <math.h>
 
+#include "Header.h"
+using namespace TD;
 
-namespace TD
-{
 
 	class TD_Boucles {
 
@@ -65,4 +65,3 @@ namespace TD
 
 
 	};
-}

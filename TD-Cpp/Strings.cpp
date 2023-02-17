@@ -1,11 +1,13 @@
 #include <iostream>
 #include <math.h>
 #include <string>
+
+#include "Header.h"
+using namespace TD;
 using std::string;
 
 
-namespace TD
-{
+
 	class TD_Strings {
 
 	public: static int Recherche(string str) {
@@ -44,4 +46,3 @@ namespace TD
 		//Ecrivez votre réponse ici ^^
 	}
 	};
-}

@@ -1,11 +1,11 @@
 #include <iostream>
 #include <math.h>
 #include <string>
+
+#include "Header.h"
 using std::string;
+using namespace TD;
 
-
-namespace TD
-{
 	class TD_Imperative {
 
 	public: static bool test(int n) {
@@ -39,4 +39,3 @@ namespace TD
 
 
 	};
-}
