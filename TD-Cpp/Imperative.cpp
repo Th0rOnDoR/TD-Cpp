@@ -34,7 +34,4 @@ namespace TD {
 		throw std::exception(); // à supprimer pour faire la fonction
 		//Affichez chaque valeur et retournez la derniere si possible
 	}
-
-
-	
 }
