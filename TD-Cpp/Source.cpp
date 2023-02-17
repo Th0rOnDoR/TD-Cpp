@@ -2,9 +2,6 @@
 #include <math.h>
 #include <string>
 #include "Header.h"
-#include "Boucles.cpp"
-#include "Strings.cpp"
-#include "Imperative.cpp"
 
 using namespace TD;
 using std::string;

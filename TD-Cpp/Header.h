@@ -7,36 +7,36 @@ namespace TD
 	class TD_Boucles {
 
 	public: 
-		static int Addition(int x, int y);
-		static int MultiplicationN(int x, int y);
-		static int MultiplicationZ(int x, int y);
-		static int Puissance(int x, int n);
-		static int Fibonacci(int n);
-		static int Mirroir(int x);
-		static int Quotient(int x, int y);
-		static int Factorielle(int x);
-		static int FactorielleCalculbre(int limit);
+		static int Addition(int, int);
+		static int MultiplicationN(int, int);
+		static int MultiplicationZ(int, int);
+		static int Puissance(int, int);
+		static int Fibonacci(int);
+		static int Mirroir(int);
+		static int Quotient(int, int);
+		static int Factorielle(int);
+		static int FactorielleCalculbre(int);
 	};
 
 
 	class TD_Strings {
 	public: 
-		static int Recherche(string str);
-		static int Appartient(string str, char c);
-		static bool Palindrome(string str);
-		static bool EstPhrase(string str);
-		static int Sous_chaine(string str, string sub_str);
-		static int Sous_palindrome(string str);
+		static int Recherche(string);
+		static int Appartient(string, char);
+		static bool Palindrome(string);
+		static bool EstPhrase(string);
+		static int Sous_chaine(string, string);
+		static int Sous_palindrome(string);
 	};
 
 
 	class TD_Imperative {
 	public: 
-		static bool test(int n);
-		static int sum_digits(int n);
-		static int product_digit(int n);
-		static int abs(int n);
-		static int loop(int n);
-		static int List_to_9(int x);
+		static bool test(int);
+		static int sum_digits(int);
+		static int product_digit(int);
+		static int abs(int);
+		static int loop(int);
+		static int List_to_9(int);
 	};
 }
