@@ -1,41 +1,40 @@
 #include <iostream>
 #include <math.h>
 #include <string>
-
 #include "Header.h"
+
 using std::string;
-using namespace TD;
+namespace TD {
 
-	class TD_Imperative {
-
-	public: static bool test(int n) {
+	bool TD_Imperative::test(int n) {
 		throw std::exception(); // à supprimer pour faire la fonction
 
 	}
-	public: static int sum_digits(int n) {
-		throw std::exception(); // à supprimer pour faire la fonction
-
-	}
-
-	public: static int product_digit(int n) {
+	int TD_Imperative::sum_digits(int n) {
 		throw std::exception(); // à supprimer pour faire la fonction
 
 	}
 
-	public: static int abs(int n) {
+	int TD_Imperative::product_digit(int n) {
 		throw std::exception(); // à supprimer pour faire la fonction
 
 	}
 
-	public: static int loop(int n) {
+	int TD_Imperative::abs(int n) {
 		throw std::exception(); // à supprimer pour faire la fonction
 
 	}
 
-	public: static int List_to_9(int x) {
+	int TD_Imperative::loop(int n) {
+		throw std::exception(); // à supprimer pour faire la fonction
+
+	}
+
+	int TD_Imperative::List_to_9(int x) {
 		throw std::exception(); // à supprimer pour faire la fonction
 		//Affichez chaque valeur et retournez la derniere si possible
 	}
 
 
-	};
+	
+}

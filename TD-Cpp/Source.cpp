@@ -2,6 +2,10 @@
 #include <math.h>
 #include <string>
 #include "Header.h"
+#include "Boucles.cpp"
+#include "Strings.cpp"
+#include "Imperative.cpp"
+
 using namespace TD;
 using std::string;
 
@@ -51,8 +55,8 @@ double fun(double x, int k, double* val, int long* forfact) {
 		//Pour les boucles (partie 1) c'est: TD_Boucles::
 		//Pour les strings (partie 2) c'est: TD_Strings::
 		//Pour les impérative (partie 3) c'est: TD_Imperative::
-		//TD_Boucles::Addition(5, 6);
-
+		std::cout << TD::TD_Boucles::Addition(5, 6);
+		/*
 		int size = 1000;
 		double* forfun = new double[size] {};
 		int long* forfact = new int long[size] {};
@@ -62,4 +66,5 @@ double fun(double x, int k, double* val, int long* forfact) {
 		}
 		std::cout << fun(3.0 / 8.0, 5, forfun, forfact);
 		return 0;
+		*/
 	}
